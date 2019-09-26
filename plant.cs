@@ -13,9 +13,9 @@ namespace myHouse
         //constructor (has to be the same name as the class):
         public Plant()
         {
-            Health = 2;
+            Health = 0;
             //to initialize an array, use this notation: Name of array equals:
-            HealthArray = new string[] { "very withered", "withering", "ok", "doing well", "thriving" };
+            HealthArray = new string[] { "very withered", "withering", "ok", "doing well", "thriving", "mega-thriving", "living its best life", "now a 🌳 !" };
             Height = 1;
             Flowers = 0;
         }
@@ -27,9 +27,9 @@ namespace myHouse
         // When we GiveSunshine, we increase Health by 1. And then return HealthArray at index "Health", which is a number that coincide with the index of the array called HealthArray.
         public string GiveSunshine()
         {
-            if (Health < 4) 
+            if (Health < 7) 
             {
-            Health++;
+                Health++;
             }
             return HealthArray[Health];
         }

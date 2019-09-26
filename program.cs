@@ -16,7 +16,7 @@ class Program
   //"Plant" is telling the method what data type the argument will be. 
   public static void ShowPlantStats(Plant plantrameter)
   {
-    Console.WriteLine("Your plant's health level: " + plantrameter.HealthArray[plantrameter.Health]);
+    Console.WriteLine("Health: Your plant is " + plantrameter.HealthArray[plantrameter.Health]);
     Console.WriteLine("Your plant's height: " + plantrameter.Height);
     Console.WriteLine("Flowers: " + plantrameter.printFlowers());
   }
