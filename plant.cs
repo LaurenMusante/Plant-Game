@@ -27,7 +27,10 @@ namespace myHouse
         // When we GiveSunshine, we increase Health by 1. And then return HealthArray at index "Health", which is a number that coincide with the index of the array called HealthArray.
         public string GiveSunshine()
         {
+            if (Health < 4) 
+            {
             Health ++;
+            }
             return HealthArray[Health];
         }
 
