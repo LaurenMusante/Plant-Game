@@ -18,7 +18,7 @@ class Program
   {
     Console.WriteLine("Your plant's health level: " + plantrameter.HealthArray[plantrameter.Health]);
     Console.WriteLine("Your plant's height: " + plantrameter.Height);
-    Console.WriteLine("Your plant has " + plantrameter.Flowers + " flowers.");
+    Console.WriteLine("Flowers: " + plantrameter.printFlowers());
   }
   
 //   this method has a new parameter of paramaplant, different than plantrameter because its a new method. however both are plant objects. when we call each of these method both will take in the argument myPlant.
@@ -30,6 +30,11 @@ class Program
     if (userAnswer.ToLower() == "w" || userAnswer.ToLower() == "water")
     {
         paramaPlant.Water();
+        if (paramaPlant.Height % 3 == 0)
+        {
+            paramaPlant.AddFlower();
+            Console.WriteLine(paramaPlant.printFlowers());
+        }
         Console.WriteLine("You watered your plant! Your plant's new height is " + paramaPlant.Height);
         PromptUser(paramaPlant);
     }
