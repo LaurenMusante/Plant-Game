@@ -14,7 +14,8 @@ namespace myHouse
         public Plant()
         {
             Health = 2;
-            HealthArray = ["very withered", "withering", "ok", "doing well", "thriving"];
+            //to initialize an array, use this notation: Name of array equals:
+            HealthArray = new string[] { "very withered", "withering", "ok", "doing well", "thriving" };
             Height = 5;
             Flowers = 0;
         }
