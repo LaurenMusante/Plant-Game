@@ -10,7 +10,7 @@ _This is a game that is played entirely in the terminal. You have a plant that y
 
 ## Setup/Installation Requirements
 
-_Clone [this repository](https://github.com/LaurenMusante/Plant-Game). Navigate to the project folder and open it in a text editor like VS Code. Run "dotnet restore" in the terminal. Then run "dotnet run" in order to play the game._
+_Clone [this repository](https://github.com/LaurenMusante/Plant-Game) to your desktop. Navigate to the project folder and open it in a text editor like VS Code. Run "dotnet restore" in the terminal. Then run "dotnet run" in order to play the game._
 
 ## Known Bugs
 
